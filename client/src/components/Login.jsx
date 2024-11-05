@@ -39,7 +39,7 @@ function Login({ onLogin }) {
     };
 
     return (
-        <div >
+        <div className="Container">
             <form className="Login" onSubmit={handleForm}>
                <div className="Login-Top">
                   <div className="Login-Title">
