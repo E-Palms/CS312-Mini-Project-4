@@ -83,7 +83,7 @@ function Account()
     return(
       <div className="Content">
          <div>
-            <h1>Your Posts</h1>
+            <h2>Welcome {user}, check out your posts!</h2>
          </div>
          {blogPosts.map((post) => (
             <div className="Post">
