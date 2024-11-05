@@ -1,165 +1,147 @@
-@media (max-width: 767px) {
-   .Content {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       width: 90vw;
-       height: auto;
-       align-items: center;
-   }
-
-   .Post {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       width: 80vw;
-       height: auto;
-       margin: 2vh;
-       padding: 2vh;
-   }
-
-   .Post-Title-Text {
+@media (max-width: 767px) 
+   {
+   .Post-Title-Text
+      {
        font-size: 24px;
-   }
+      }
 
-   .Post-Date-Text,
-   .Post-Author-Text {
+   .Post-Date-Text, .Post-Author-Text
+      {
        font-size: 20px;
-   }
+      }
 
-   .Post-Content-Text {
+   .Post-Content-Text
+      {
        font-size: 18px;
-   }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-   .Content {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       width: 80vw;
-       height: auto;
-       align-items: center;
+      }
    }
 
-   .Post {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       width: 70vw;
-       height: auto;
-       margin: 1.5vh;
-       padding: 1.5vh;
-   }
+@media (min-width: 768px) and (max-width: 1023px) 
+   {   
+   .Post-Title-Text
+      {
+       font-size: 30px;
+      }
 
-   .Post-Title-Text {
-       font-size: 28px;
-   }
+   .Post-Date-Text, .Post-Author-Text
+      {
+       font-size: 24px;
+      }
 
-   .Post-Date-Text,
-   .Post-Author-Text {
+   .Post-Content-Text
+      {
        font-size: 22px;
+      }
    }
 
-   .Post-Content-Text {
-       font-size: 20px;
-   }
-}
+@media (min-width: 1024px) 
+   {
+   .Post-Title-Text
+      {
+       font-size: 50px;
+      }
 
-@media (min-width: 1024px) {
-   .Content {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       width: 70vw;
-       height: auto;
-       align-items: center;
-   }
+   .Post-Date-Text, .Post-Author-Text
+      {
+       font-size: 30px;
+      }
 
-   .Post {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       width: 60vw;
-       height: auto;
-       margin: 1vh;
-       padding: 1vh;
+   .Post-Content-Text
+      {
+       font-size: 34px;
+      }
    }
 
-   .Post-Title-Text {
-       font-size: 36px;
+.Content
+   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    align-items: center;
+   }
+   
+.Post
+   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    margin: 2vh;
+    padding: 2vh;
    }
 
-   .Post-Date-Text,
-   .Post-Author-Text {
-       font-size: 26px;
+.Post-Header
+   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 1vh;
    }
 
-   .Post-Content-Text {
-       font-size: 22px;
+.Post
+   {
+    background-color: lightslategray;
+    border-radius: 30px;
    }
-}
 
-.Post-Header {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: baseline;
-   margin: 1vh;
-}
+.Post-Author
+   {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      width: 75%;
+      margin-left: 5%;
+   }
 
-.Post {
-   background-color: lightslategray;
-   border-radius: 30px;
-}
+.Post-Footer
+   {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+   }
 
-.Post-Author {
-   display: flex;
-   flex-direction: row;
-   align-items: baseline;
-   width: 75%;
-   margin-left: 5%;
-}
+.Post-Options
+   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 5%;
+   }
 
-.Post-Footer {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-between;
-}
+.Post-Header-Form
+   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+   }
 
-.Post-Options {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-   margin-right: 5%;
-}
+.Post-Title-Form
+   {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+   }
 
-.Post-Header-Form {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-   margin-left: 5%;
-   margin-right: 5%;
-}
+.Post-Content-Form
+   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+   }
 
-.Post-Title-Form {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   width: 90%;
-}
-
-.Post-Content-Form {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   margin-left: 3%;
-   margin-right: 3%;
-   margin-bottom: 3%;
-}
-
-button {
-   width: 30%;
-}
+button
+   {
+    size: 30%;
+   }

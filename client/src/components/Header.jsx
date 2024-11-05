@@ -34,9 +34,9 @@ function Header({ onLogout })
          {isDropDown && (
             <div className="Dropdown-Menu">
                <ul>
-                  <li onClick={handleAccountClick}>Account</li>
-                  <li onClick={handleAccountView}>Go To Account</li>
-                  <li onClick={handleLogout}>Logout</li>
+                  <li className="Dropdown-Menu-li-top" onClick={handleAccountClick}>Account</li>
+                  <li className="Dropdown-Menu-li-middle" onClick={handleAccountView}>Go To Account</li>
+                  <li className="Dropdown-Menu-li-bottom" onClick={handleLogout}>Logout</li>
                </ul>
             </div>
          )}
