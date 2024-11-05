@@ -3,6 +3,7 @@ import { useNavigate, Link, useRouteError } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit } from '@fortawesome/free-solid-svg-icons';
 import { faTrashCan} from '@fortawesome/free-solid-svg-icons';
+import "./styles/Shared.css"
 import "./styles/Home.css"
 
 

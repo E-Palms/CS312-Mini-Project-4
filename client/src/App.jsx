@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
 import Home from './components/Home';
 import Login from './components/Login';
 import Signup from "./components/Signup";
 import Edit from "./components/Edit";
 import Account from "./components/Account";
 import Header from "./components/Header";
-import "./App.css"
+
 
 function App() {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
