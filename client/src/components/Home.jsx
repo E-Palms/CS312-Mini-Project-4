@@ -133,7 +133,7 @@ function Home({onLogout})
                             required />
                   </div>
                   <div className="Post-Content-Form">
-                     <label className="Post-Content-Text" htmlFor="userContent">Edit blog post here:</label>
+                     <label className="Post-Content-Text" htmlFor="userContent">Write blog post here:</label>
                      <textarea style={{borderRadius: "30px", resize: "vertical", padding: "2%", width: "90%", alignSelf: "center"}} 
                                className="Post-Content-Text" 
                                rows="8" 

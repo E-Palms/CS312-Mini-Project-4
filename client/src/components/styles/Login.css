@@ -72,8 +72,10 @@
 
 .Signup-Group
    {
-    width: 70vw;
+    width: 70%;
     max-width: 350px;
+    margin-left: 1%;
+    margin-bottom: 1%;
    }
 
 .Signup-Link
@@ -89,4 +91,11 @@
     height: 3vh;
     border-radius: 30px;
     padding: 1vh;
+   }
+
+button
+   {
+    width: 80%;
+    height: auto;
+    font-size: 75%;
    }
