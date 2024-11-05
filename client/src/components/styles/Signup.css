@@ -1,0 +1,85 @@
+.Login
+   {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    width: 25vh;
+    background-color: lightslategray;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+   }
+
+.Login-Top
+   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1vh;
+   }
+
+
+.Login-Item-Group
+   {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 22.5vh;
+   }
+
+.Login-Title
+   {
+    font-size: 2vh;
+   }
+
+.Login-Item
+   {
+    height: 3vh;
+    width: 20vh;
+    margin-bottom: 1vh;
+    align-self: center;
+    text-align: center;
+    padding-left: 1vh;
+    padding-right: 1vh;
+   }
+
+.Login-Button-Group
+   {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 25vh;
+    align-items: center;
+    padding-top: 1vh;
+   }
+
+.Login-Button
+   {
+    width: 15vh;
+    align-self: center;
+   }
+
+.Signup-Group
+   {
+    width: 20vh;
+   }
+
+.Signup-Link
+   {
+    color: skyblue;
+   }
+
+.Error-Message
+   {
+    display: flex;
+    align-items: center;
+    color: red;
+    height: 2vh;
+    border-radius: 30px;
+    padding: .5vh;
+   }
+
+img
+   {
+    width: 50%;
+    height: auto;
+   }

@@ -1,0 +1,99 @@
+.Header-Bar
+   {
+    width: 100%;
+    height: 7vh;
+    background-color: lightslategray;
+    border-radius: 30px;
+    margin-bottom: 2%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+   }
+
+.Account-Icon
+   {
+    width: 8.5%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    margin-right: 2%;
+    position: relative;
+   }
+
+.Account-Icon:hover
+   {
+    cursor: pointer;
+    background-color: darkslategray;
+    transition: background-color 0.2s;
+   }
+
+.Account-Icon-Clicked
+   {
+    border-radius: 5px;
+    width: 16%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    text-decoration: none;
+    color: white;
+    margin-right: 2%;
+    position: relative;
+   }
+
+.Account-Icon-Clicked:hover
+   {
+    cursor: pointer;
+    background-color: darkslategray;
+    transition: background-color 0.2s;
+   }
+
+.Home-Icon
+   {
+    margin-left: 2%;
+   }
+
+.Home-Icon:hover
+   {
+    cursor: pointer;
+    color: darkslategray;
+   }
+
+.Dropdown-Menu
+   {
+    height: 150%;
+    top: 2.1%;
+    right: 20%;
+    background-color: darkgray;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 5px;
+   }
+
+.Dropdown-Menu ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.Dropdown-Menu li {
+   padding: 10px 20px;
+   cursor: pointer;
+   transition: background-color 0.2s;
+   border-radius: 5px;
+}
+
+.Dropdown-Menu li:hover {
+   background-color: darkslategray;
+}
