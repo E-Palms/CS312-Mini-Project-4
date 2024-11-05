@@ -82,7 +82,7 @@ function Edit()
                         <h3>{"User: " + user}</h3>
                      </div>
                      <div>
-                        <button type="submit">Update Post</button>
+                        <button className="Button" type="submit">Update Post</button>
                      </div>
                   </div>
                   <div className="Post-Title-Form, Post-Title-Text" style={{marginBottom: "2%"}}>

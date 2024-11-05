@@ -106,8 +106,8 @@ function Account()
                      <h4>{post.name}</h4>
                   </div>
                   <div className="Post-Options">
-                     <button onClick={() => editPost(post)} style={{margin: "2%"}}><FontAwesomeIcon icon={faEdit} /></button>
-                     <button onClick={() => deletePost(post)} style={{margin: "2%"}}><FontAwesomeIcon icon={faTrashCan} /></button>
+                     <button onClick={() => editPost(post)} style={{minWidth: "60px", margin: "2%"}}><FontAwesomeIcon style={{height: "50%"}} icon={faEdit} /></button>
+                     <button onClick={() => deletePost(post)} style={{minWidth: "60px", margin: "2%"}}><FontAwesomeIcon style={{height: "50%"}} icon={faTrashCan} /></button>
                   </div>
                </div>
             </div>
